@@ -1,0 +1,12 @@
+voting_tb:voting_tb
+	uut:digital_voting_machine
+		Process #ALWAYS#35
+		Process #ALWAYS#50
+		Process #ALWAYS#65
+		Process #ALWAYS#96
+		Process #ALWAYS#117
+		Process #ASSIGN#132
+		Process #ALWAYS#133
+	Process #ALWAYS#37
+	Process #INITIAL#39
+Capacity #vsim_capacity#
